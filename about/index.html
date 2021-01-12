@@ -6,6 +6,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>About me</title>
 	<link rel="stylesheet" type="text/css" href="/assets/main.css" />
+	<link rel="preload" href="/fonts/inter-100-900.woff2" as="font" type="font/woff2" crossorigin>
+	<style>
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 100 900;
+			font-display: swap;
+			src: url(/fonts/inter-100-900.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+	</style>
 </head>
   <body class="font-sans text-black dark:text-white bg-white dark:bg-black">
 
@@ -15,8 +26,8 @@
 		<li class="">
 			<a 
 				href="/" 
-				class="filter-hover uppercase text-sm py-1 px-2 rounded mr-4 inline-block
-					text-gray-600 dark:text-gray-300"
+				class=" text-xs py-2 uppercase  mr-5 inline-block 
+					link"
 			>
 				Home
 			</a>
@@ -25,8 +36,8 @@
 			<li class="">
 				<a 
 					href="/about/" 
-					class="filter-hover uppercase text-sm py-1 px-2 rounded mr-4 inline-block
-						bg-black text-white dark:bg-white dark:text-black"
+					class=" text-xs uppercase py-2 mr-5 inline-block filter-hover transition-all bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400
+						text-gray-900 dark:text-gray-200 border-b-2 border-gray-200"
 				>
 					About
 				</a>
@@ -35,8 +46,8 @@
 			<li class="">
 				<a 
 					href="/timeline/" 
-					class="filter-hover uppercase text-sm py-1 px-2 rounded mr-4 inline-block
-						text-gray-600 dark:text-gray-300"
+					class=" text-xs uppercase py-2 mr-5 inline-block filter-hover transition-all bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400
+						"
 				>
 					Timeline
 				</a>
@@ -60,17 +71,17 @@
 
 		<ul class="mt-0 mb-6 uppercase tracking-wider">
 	<li class="inline list-none pr-4">
-		<a class="link text-xs filter-hover transition-all font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400" href="https://twitter.com/ericvalois" target="_blank" rel="noopener noreferrer">Twitter</a>
+		<a class="filter-hover transition-all bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 text-xs " href="https://twitter.com/ericvalois" target="_blank" rel="noopener noreferrer">Twitter</a>
 	</li>
 	<li class="inline list-none pr-4">
-		<a class="link text-xs" href="https://github.com/ericvalois" target="_blank" rel="noopener noreferrer">GitHub</a>
+		<a class="filter-hover transition-all bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 text-xs" href="https://github.com/ericvalois" target="_blank" rel="noopener noreferrer">GitHub</a>
 	</li>
 	<li class="inline list-none pr-4">
-		<a class="link text-xs" href="https://ca.linkedin.com/in/ericvalois" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+		<a class="filter-hover transition-all bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 text-xs" href="https://ca.linkedin.com/in/ericvalois" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 	</li>
 
 	<li class="inline list-none pr-4">
-		<a class="link text-xs" href="https://codepen.io/valois" target="_blank" rel="noopener noreferrer">CodePen</a>
+		<a class="filter-hover transition-all bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 text-xs" href="https://codepen.io/valois" target="_blank" rel="noopener noreferrer">CodePen</a>
 	</li>
 </ul>
 
