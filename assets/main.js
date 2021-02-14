@@ -102,12 +102,13 @@ module.exports = __webpack_require__(4);
 /***/ (function(module, exports) {
 
 const icons = {
-	'layer'	: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><polygon fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="2,7 12,1 22,7 12,13 " stroke-linejoin="miter"></polygon> <polyline data-color="color-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points=" 22,12 12,18 2,12 " stroke-linejoin="miter"></polyline> <polyline data-color="color-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points=" 22,17 12,23 2,17 " stroke-linejoin="miter"></polyline></g></svg>`,
-	'twitter'	: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><path fill="currentColor" d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"></path></g></svg>`,
+	'layer'			: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><polygon fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="2,7 12,1 22,7 12,13 " stroke-linejoin="miter"></polygon> <polyline data-color="color-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points=" 22,12 12,18 2,12 " stroke-linejoin="miter"></polyline> <polyline data-color="color-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points=" 22,17 12,23 2,17 " stroke-linejoin="miter"></polyline></g></svg>`,
+	'twitter'		: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><path fill="currentColor" d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"></path></g></svg>`,
 	'arrow-right'	: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><line data-cap="butt" data-color="color-2" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line> <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="15,5 22,12 15,19 " stroke-linejoin="miter"></polyline></g></svg>`,
-	'arrow-sm-right'	: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="10,8 14,12 10,16 " transform="translate(0, 0)" stroke-linejoin="miter"></polyline></g></svg>`,
-	'pencil'	: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><line data-cap="butt" data-color="color-2" x1="14.328" y1="4.672" x2="19.328" y2="9.672" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"></line> <path d="M8,21,2,22l1-6L16.414,2.586a2,2,0,0,1,2.828,0l2.172,2.172a2,2,0,0,1,0,2.828Z" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></path></g></svg>`,
-	'picture'	: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><path d="M22,1H2A1,1,0,0,0,1,2V22a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V2A1,1,0,0,0,22,1ZM21,21H3V3H21Z" fill="currentColor"></path><path data-color="color-2" d="M6,19H18a1,1,0,0,0,.895-1.447l-4-8a1,1,0,0,0-.735-.54.984.984,0,0,0-.867.28l-8,8A1,1,0,0,0,6,19Z" fill="currentColor"></path><circle data-color="color-2" cx="8" cy="8" r="2" fill="currentColor"></circle></g></svg>`,
+	'arrow-sm-right': `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="10,8 14,12 10,16 " transform="translate(0, 0)" stroke-linejoin="miter"></polyline></g></svg>`,
+	'pencil'		: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><line data-cap="butt" data-color="color-2" x1="14.328" y1="4.672" x2="19.328" y2="9.672" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"></line> <path d="M8,21,2,22l1-6L16.414,2.586a2,2,0,0,1,2.828,0l2.172,2.172a2,2,0,0,1,0,2.828Z" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></path></g></svg>`,
+	'picture'		: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><path d="M22,1H2A1,1,0,0,0,1,2V22a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V2A1,1,0,0,0,22,1ZM21,21H3V3H21Z" fill="currentColor"></path><path data-color="color-2" d="M6,19H18a1,1,0,0,0,.895-1.447l-4-8a1,1,0,0,0-.735-.54.984.984,0,0,0-.867.28l-8,8A1,1,0,0,0,6,19Z" fill="currentColor"></path><circle data-color="color-2" cx="8" cy="8" r="2" fill="currentColor"></circle></g></svg>`,
+	'update'		: `<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><path fill="currentColor" d="M12,3c1.989,0,3.873,0.65,5.43,1.833l-3.604,3.393l9.167,0.983L22.562,0l-3.655,3.442 C16.957,1.862,14.545,1,12,1C5.935,1,1,5.935,1,12h2C3,7.037,7.037,3,12,3z"></path> <path data-color="color-2" fill="currentColor" d="M12,21c-1.989,0-3.873-0.65-5.43-1.833l3.604-3.393l-9.167-0.983L1.438,24l3.655-3.442 C7.043,22.138,9.455,23,12,23c6.065,0,11-4.935,11-11h-2C21,16.963,16.963,21,12,21z"></path></g></svg>`,
 }
 
 function init(){
@@ -173,451 +174,8 @@ var _icon = __webpack_require__(2);
 // EXTERNAL MODULE: ./src/scripts/_pagespeed.js
 var _pagespeed = __webpack_require__(3);
 
-// CONCATENATED MODULE: ./node_modules/zooming/build/zooming.module.js
-var cursor = {
-  default: 'auto',
-  zoomIn: 'zoom-in',
-  zoomOut: 'zoom-out',
-  grab: 'grab',
-  move: 'move'
-};
-
-function listen(el, event, handler) {
-  var add = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : true;
-
-  var options = { passive: false };
-
-  if (add) {
-    el.addEventListener(event, handler, options);
-  } else {
-    el.removeEventListener(event, handler, options);
-  }
-}
-
-function loadImage(src, cb) {
-  if (src) {
-    var img = new Image();
-
-    img.onload = function onImageLoad() {
-      if (cb) cb(img);
-    };
-
-    img.src = src;
-  }
-}
-
-function getOriginalSource(el) {
-  if (el.dataset.original) {
-    return el.dataset.original;
-  } else if (el.parentNode.tagName === 'A') {
-    return el.parentNode.getAttribute('href');
-  } else {
-    return null;
-  }
-}
-
-function setStyle(el, styles, remember) {
-  checkTrans(styles);
-
-  var s = el.style;
-  var original = {};
-
-  for (var key in styles) {
-    if (remember) {
-      original[key] = s[key] || '';
-    }
-
-    s[key] = styles[key];
-  }
-
-  return original;
-}
-
-function bindAll(_this, that) {
-  var methods = Object.getOwnPropertyNames(Object.getPrototypeOf(_this));
-  methods.forEach(function bindOne(method) {
-    _this[method] = _this[method].bind(that);
-  });
-}
-
-var trans = {
-  transitionProp: 'transition',
-  transEndEvent: 'transitionend',
-  transformProp: 'transform',
-  transformCssProp: 'transform'
-};
-var transformCssProp = trans.transformCssProp,
-    transEndEvent = trans.transEndEvent;
-
-
-function checkTrans(styles) {
-  var transitionProp = trans.transitionProp,
-      transformProp = trans.transformProp;
-
-
-  if (styles.transition) {
-    var value = styles.transition;
-    delete styles.transition;
-    styles[transitionProp] = value;
-  }
-
-  if (styles.transform) {
-    var _value = styles.transform;
-    delete styles.transform;
-    styles[transformProp] = _value;
-  }
-}
-
-var noop = function noop() {};
-
-var DEFAULT_OPTIONS = {
-  /**
-   * To be able to grab and drag the image for extra zoom-in.
-   * @type {boolean}
-   */
-  enableGrab: true,
-
-  /**
-   * Preload zoomable images.
-   * @type {boolean}
-   */
-  preloadImage: false,
-
-  /**
-   * Close the zoomed image when browser window is resized.
-   * @type {boolean}
-   */
-  closeOnWindowResize: true,
-
-  /**
-   * Transition duration in seconds.
-   * @type {number}
-   */
-  transitionDuration: 0.4,
-
-  /**
-   * Transition timing function.
-   * @type {string}
-   */
-  transitionTimingFunction: 'cubic-bezier(0.4, 0, 0, 1)',
-
-  /**
-   * Overlay background color.
-   * @type {string}
-   */
-  bgColor: 'rgb(255, 255, 255)',
-
-  /**
-   * Overlay background opacity.
-   * @type {number}
-   */
-  bgOpacity: 1,
-
-  /**
-   * The base scale factor for zooming. By default scale to fit the window.
-   * @type {number}
-   */
-  scaleBase: 1.0,
-
-  /**
-   * The additional scale factor when grabbing the image.
-   * @type {number}
-   */
-  scaleExtra: 0.5,
-
-  /**
-   * How much scrolling it takes before closing out.
-   * @type {number}
-   */
-  scrollThreshold: 40,
-
-  /**
-   * The z-index that the overlay will be added with.
-   * @type {number}
-   */
-  zIndex: 998,
-
-  /**
-   * Scale (zoom in) to given width and height. Ignore scaleBase if set.
-   * Alternatively, provide a percentage value relative to the original image size.
-   * @type {Object|String}
-   * @example
-   * customSize: { width: 800, height: 400 }
-   * customSize: 100%
-   */
-  customSize: null,
-
-  /**
-   * A callback function that will be called when a target is opened and
-   * transition has ended. It will get the target element as the argument.
-   * @type {Function}
-   */
-  onOpen: noop,
-
-  /**
-   * Same as above, except fired when closed.
-   * @type {Function}
-   */
-  onClose: noop,
-
-  /**
-   * Same as above, except fired when grabbed.
-   * @type {Function}
-   */
-  onGrab: noop,
-
-  /**
-   * Same as above, except fired when moved.
-   * @type {Function}
-   */
-  onMove: noop,
-
-  /**
-   * Same as above, except fired when released.
-   * @type {Function}
-   */
-  onRelease: noop,
-
-  /**
-   * A callback function that will be called before open.
-   * @type {Function}
-   */
-  onBeforeOpen: noop,
-
-  /**
-   * A callback function that will be called before close.
-   * @type {Function}
-   */
-  onBeforeClose: noop,
-
-  /**
-   * A callback function that will be called before grab.
-   * @type {Function}
-   */
-  onBeforeGrab: noop,
-
-  /**
-   * A callback function that will be called before release.
-   * @type {Function}
-   */
-  onBeforeRelease: noop,
-
-  /**
-   * A callback function that will be called when the hi-res image is loading.
-   * @type {Function}
-   */
-  onImageLoading: noop,
-
-  /**
-   * A callback function that will be called when the hi-res image is loaded.
-   * @type {Function}
-   */
-  onImageLoaded: noop
-};
-
-var PRESS_DELAY = 200;
-
-var handler = {
-  init: function init(instance) {
-    bindAll(this, instance);
-  },
-  click: function click(e) {
-    e.preventDefault();
-
-    if (isPressingMetaKey(e)) {
-      return window.open(this.target.srcOriginal || e.currentTarget.src, '_blank');
-    } else {
-      if (this.shown) {
-        if (this.released) {
-          this.close();
-        } else {
-          this.release();
-        }
-      } else {
-        this.open(e.currentTarget);
-      }
-    }
-  },
-  scroll: function scroll() {
-    var el = document.documentElement || document.body.parentNode || document.body;
-    var scrollLeft = window.pageXOffset || el.scrollLeft;
-    var scrollTop = window.pageYOffset || el.scrollTop;
-
-    if (this.lastScrollPosition === null) {
-      this.lastScrollPosition = {
-        x: scrollLeft,
-        y: scrollTop
-      };
-    }
-
-    var deltaX = this.lastScrollPosition.x - scrollLeft;
-    var deltaY = this.lastScrollPosition.y - scrollTop;
-    var threshold = this.options.scrollThreshold;
-
-    if (Math.abs(deltaY) >= threshold || Math.abs(deltaX) >= threshold) {
-      this.lastScrollPosition = null;
-      this.close();
-    }
-  },
-  keydown: function keydown(e) {
-    if (isEscape(e)) {
-      if (this.released) {
-        this.close();
-      } else {
-        this.release(this.close);
-      }
-    }
-  },
-  mousedown: function mousedown(e) {
-    if (!isLeftButton(e) || isPressingMetaKey(e)) return;
-    e.preventDefault();
-    var clientX = e.clientX,
-        clientY = e.clientY;
-
-
-    this.pressTimer = setTimeout(function grabOnMouseDown() {
-      this.grab(clientX, clientY);
-    }.bind(this), PRESS_DELAY);
-  },
-  mousemove: function mousemove(e) {
-    if (this.released) return;
-    this.move(e.clientX, e.clientY);
-  },
-  mouseup: function mouseup(e) {
-    if (!isLeftButton(e) || isPressingMetaKey(e)) return;
-    clearTimeout(this.pressTimer);
-
-    if (this.released) {
-      this.close();
-    } else {
-      this.release();
-    }
-  },
-  touchstart: function touchstart(e) {
-    e.preventDefault();
-    var _e$touches$ = e.touches[0],
-        clientX = _e$touches$.clientX,
-        clientY = _e$touches$.clientY;
-
-
-    this.pressTimer = setTimeout(function grabOnTouchStart() {
-      this.grab(clientX, clientY);
-    }.bind(this), PRESS_DELAY);
-  },
-  touchmove: function touchmove(e) {
-    if (this.released) return;
-
-    var _e$touches$2 = e.touches[0],
-        clientX = _e$touches$2.clientX,
-        clientY = _e$touches$2.clientY;
-
-    this.move(clientX, clientY);
-  },
-  touchend: function touchend(e) {
-    if (isTouching(e)) return;
-    clearTimeout(this.pressTimer);
-
-    if (this.released) {
-      this.close();
-    } else {
-      this.release();
-    }
-  },
-  clickOverlay: function clickOverlay() {
-    this.close();
-  },
-  resizeWindow: function resizeWindow() {
-    this.close();
-  }
-};
-
-function isLeftButton(e) {
-  return e.button === 0;
-}
-
-function isPressingMetaKey(e) {
-  return e.metaKey || e.ctrlKey;
-}
-
-function isTouching(e) {
-  e.targetTouches.length > 0;
-}
-
-function isEscape(e) {
-  var code = e.key || e.code;
-  return code === 'Escape' || e.keyCode === 27;
-}
-
-var overlay = {
-  init: function init(instance) {
-    this.el = document.createElement('div');
-    this.instance = instance;
-    this.parent = document.body;
-
-    setStyle(this.el, {
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      opacity: 0
-    });
-
-    this.updateStyle(instance.options);
-    listen(this.el, 'click', instance.handler.clickOverlay.bind(instance));
-  },
-  updateStyle: function updateStyle(options) {
-    setStyle(this.el, {
-      zIndex: options.zIndex,
-      backgroundColor: options.bgColor,
-      transition: 'opacity\n        ' + options.transitionDuration + 's\n        ' + options.transitionTimingFunction
-    });
-  },
-  insert: function insert() {
-    this.parent.appendChild(this.el);
-  },
-  remove: function remove() {
-    this.parent.removeChild(this.el);
-  },
-  fadeIn: function fadeIn() {
-    this.el.offsetWidth;
-    this.el.style.opacity = this.instance.options.bgOpacity;
-  },
-  fadeOut: function fadeOut() {
-    this.el.style.opacity = 0;
-  }
-};
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
-  return typeof obj;
-} : function (obj) {
-  return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-};
-
-var classCallCheck = function (instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-};
-
-var createClass = function () {
-  function defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
-      var descriptor = props[i];
-      descriptor.enumerable = descriptor.enumerable || false;
-      descriptor.configurable = true;
-      if ("value" in descriptor) descriptor.writable = true;
-      Object.defineProperty(target, descriptor.key, descriptor);
-    }
-  }
-
-  return function (Constructor, protoProps, staticProps) {
-    if (protoProps) defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) defineProperties(Constructor, staticProps);
-    return Constructor;
-  };
-}();
-
+// CONCATENATED MODULE: ./node_modules/medium-zoom/dist/medium-zoom.esm.js
+/*! medium-zoom 1.0.6 | MIT License | https://github.com/francoischalifour/medium-zoom */
 var _extends = Object.assign || function (target) {
   for (var i = 1; i < arguments.length; i++) {
     var source = arguments[i];
@@ -632,516 +190,613 @@ var _extends = Object.assign || function (target) {
   return target;
 };
 
-// Translate z-axis to fix CSS grid display issue in Chrome:
-// https://github.com/kingdido999/zooming/issues/42
-var TRANSLATE_Z = 0;
+var isSupported = function isSupported(node) {
+  return node.tagName === 'IMG';
+};
 
-var target = {
-  init: function init(el, instance) {
-    this.el = el;
-    this.instance = instance;
-    this.srcThumbnail = this.el.getAttribute('src');
-    this.srcset = this.el.getAttribute('srcset');
-    this.srcOriginal = getOriginalSource(this.el);
-    this.rect = this.el.getBoundingClientRect();
-    this.translate = null;
-    this.scale = null;
-    this.styleOpen = null;
-    this.styleClose = null;
-  },
-  zoomIn: function zoomIn() {
-    var _instance$options = this.instance.options,
-        zIndex = _instance$options.zIndex,
-        enableGrab = _instance$options.enableGrab,
-        transitionDuration = _instance$options.transitionDuration,
-        transitionTimingFunction = _instance$options.transitionTimingFunction;
+/* eslint-disable-next-line no-prototype-builtins */
+var isNodeList = function isNodeList(selector) {
+  return NodeList.prototype.isPrototypeOf(selector);
+};
 
-    this.translate = this.calculateTranslate();
-    this.scale = this.calculateScale();
+var isNode = function isNode(selector) {
+  return selector && selector.nodeType === 1;
+};
 
-    this.styleOpen = {
-      position: 'relative',
-      zIndex: zIndex + 1,
-      cursor: enableGrab ? cursor.grab : cursor.zoomOut,
-      transition: transformCssProp + '\n        ' + transitionDuration + 's\n        ' + transitionTimingFunction,
-      transform: 'translate3d(' + this.translate.x + 'px, ' + this.translate.y + 'px, ' + TRANSLATE_Z + 'px)\n        scale(' + this.scale.x + ',' + this.scale.y + ')',
-      height: this.rect.height + 'px',
-      width: this.rect.width + 'px'
+var isSvg = function isSvg(image) {
+  var source = image.currentSrc || image.src;
+  return source.substr(-4).toLowerCase() === '.svg';
+};
 
-      // Force layout update
-    };this.el.offsetWidth;
-
-    // Trigger transition
-    this.styleClose = setStyle(this.el, this.styleOpen, true);
-  },
-  zoomOut: function zoomOut() {
-    // Force layout update
-    this.el.offsetWidth;
-
-    setStyle(this.el, { transform: 'none' });
-  },
-  grab: function grab(x, y, scaleExtra) {
-    var windowCenter = getWindowCenter();
-    var dx = windowCenter.x - x,
-        dy = windowCenter.y - y;
-
-
-    setStyle(this.el, {
-      cursor: cursor.move,
-      transform: 'translate3d(\n        ' + (this.translate.x + dx) + 'px, ' + (this.translate.y + dy) + 'px, ' + TRANSLATE_Z + 'px)\n        scale(' + (this.scale.x + scaleExtra) + ',' + (this.scale.y + scaleExtra) + ')'
-    });
-  },
-  move: function move(x, y, scaleExtra) {
-    var windowCenter = getWindowCenter();
-    var dx = windowCenter.x - x,
-        dy = windowCenter.y - y;
-
-
-    setStyle(this.el, {
-      transition: transformCssProp,
-      transform: 'translate3d(\n        ' + (this.translate.x + dx) + 'px, ' + (this.translate.y + dy) + 'px, ' + TRANSLATE_Z + 'px)\n        scale(' + (this.scale.x + scaleExtra) + ',' + (this.scale.y + scaleExtra) + ')'
-    });
-  },
-  restoreCloseStyle: function restoreCloseStyle() {
-    setStyle(this.el, this.styleClose);
-  },
-  restoreOpenStyle: function restoreOpenStyle() {
-    setStyle(this.el, this.styleOpen);
-  },
-  upgradeSource: function upgradeSource() {
-    if (this.srcOriginal) {
-      var parentNode = this.el.parentNode;
-
-      if (this.srcset) {
-        this.el.removeAttribute('srcset');
-      }
-
-      var temp = this.el.cloneNode(false);
-
-      // Force compute the hi-res image in DOM to prevent
-      // image flickering while updating src
-      temp.setAttribute('src', this.srcOriginal);
-      temp.style.position = 'fixed';
-      temp.style.visibility = 'hidden';
-      parentNode.appendChild(temp);
-
-      // Add delay to prevent Firefox from flickering
-      setTimeout(function updateSrc() {
-        this.el.setAttribute('src', this.srcOriginal);
-        parentNode.removeChild(temp);
-      }.bind(this), 50);
+var getImagesFromSelector = function getImagesFromSelector(selector) {
+  try {
+    if (Array.isArray(selector)) {
+      return selector.filter(isSupported);
     }
-  },
-  downgradeSource: function downgradeSource() {
-    if (this.srcOriginal) {
-      if (this.srcset) {
-        this.el.setAttribute('srcset', this.srcset);
-      }
-      this.el.setAttribute('src', this.srcThumbnail);
+
+    if (isNodeList(selector)) {
+      // Do not use spread operator or Array.from() for IE support
+      return [].slice.call(selector).filter(isSupported);
     }
-  },
-  calculateTranslate: function calculateTranslate() {
-    var windowCenter = getWindowCenter();
-    var targetCenter = {
-      x: this.rect.left + this.rect.width / 2,
-      y: this.rect.top + this.rect.height / 2
 
-      // The vector to translate image to the window center
-    };return {
-      x: windowCenter.x - targetCenter.x,
-      y: windowCenter.y - targetCenter.y
-    };
-  },
-  calculateScale: function calculateScale() {
-    var _el$dataset = this.el.dataset,
-        zoomingHeight = _el$dataset.zoomingHeight,
-        zoomingWidth = _el$dataset.zoomingWidth;
-    var _instance$options2 = this.instance.options,
-        customSize = _instance$options2.customSize,
-        scaleBase = _instance$options2.scaleBase;
-
-
-    if (!customSize && zoomingHeight && zoomingWidth) {
-      return {
-        x: zoomingWidth / this.rect.width,
-        y: zoomingHeight / this.rect.height
-      };
-    } else if (customSize && (typeof customSize === 'undefined' ? 'undefined' : _typeof(customSize)) === 'object') {
-      return {
-        x: customSize.width / this.rect.width,
-        y: customSize.height / this.rect.height
-      };
-    } else {
-      var targetHalfWidth = this.rect.width / 2;
-      var targetHalfHeight = this.rect.height / 2;
-      var windowCenter = getWindowCenter();
-
-      // The distance between target edge and window edge
-      var targetEdgeToWindowEdge = {
-        x: windowCenter.x - targetHalfWidth,
-        y: windowCenter.y - targetHalfHeight
-      };
-
-      var scaleHorizontally = targetEdgeToWindowEdge.x / targetHalfWidth;
-      var scaleVertically = targetEdgeToWindowEdge.y / targetHalfHeight;
-
-      // The additional scale is based on the smaller value of
-      // scaling horizontally and scaling vertically
-      var scale = scaleBase + Math.min(scaleHorizontally, scaleVertically);
-
-      if (customSize && typeof customSize === 'string') {
-        // Use zoomingWidth and zoomingHeight if available
-        var naturalWidth = zoomingWidth || this.el.naturalWidth;
-        var naturalHeight = zoomingHeight || this.el.naturalHeight;
-        var maxZoomingWidth = parseFloat(customSize) * naturalWidth / (100 * this.rect.width);
-        var maxZoomingHeight = parseFloat(customSize) * naturalHeight / (100 * this.rect.height);
-
-        // Only scale image up to the specified customSize percentage
-        if (scale > maxZoomingWidth || scale > maxZoomingHeight) {
-          return {
-            x: maxZoomingWidth,
-            y: maxZoomingHeight
-          };
-        }
-      }
-
-      return {
-        x: scale,
-        y: scale
-      };
+    if (isNode(selector)) {
+      return [selector].filter(isSupported);
     }
+
+    if (typeof selector === 'string') {
+      // Do not use spread operator or Array.from() for IE support
+      return [].slice.call(document.querySelectorAll(selector)).filter(isSupported);
+    }
+
+    return [];
+  } catch (err) {
+    throw new TypeError('The provided selector is invalid.\n' + 'Expects a CSS selector, a Node element, a NodeList or an array.\n' + 'See: https://github.com/francoischalifour/medium-zoom');
   }
 };
 
-function getWindowCenter() {
-  var docEl = document.documentElement;
-  var windowWidth = Math.min(docEl.clientWidth, window.innerWidth);
-  var windowHeight = Math.min(docEl.clientHeight, window.innerHeight);
+var createOverlay = function createOverlay(background) {
+  var overlay = document.createElement('div');
+  overlay.classList.add('medium-zoom-overlay');
+  overlay.style.background = background;
 
-  return {
-    x: windowWidth / 2,
-    y: windowHeight / 2
-  };
-}
+  return overlay;
+};
 
-/**
- * Zooming instance.
- */
+var cloneTarget = function cloneTarget(template) {
+  var _template$getBounding = template.getBoundingClientRect(),
+      top = _template$getBounding.top,
+      left = _template$getBounding.left,
+      width = _template$getBounding.width,
+      height = _template$getBounding.height;
 
-var Zooming = function () {
-  /**
-   * @param {Object} [options] Update default options if provided.
-   */
-  function Zooming(options) {
-    classCallCheck(this, Zooming);
+  var clone = template.cloneNode();
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0;
 
-    this.target = Object.create(target);
-    this.overlay = Object.create(overlay);
-    this.handler = Object.create(handler);
-    this.body = document.body;
+  clone.removeAttribute('id');
+  clone.style.position = 'absolute';
+  clone.style.top = top + scrollTop + 'px';
+  clone.style.left = left + scrollLeft + 'px';
+  clone.style.width = width + 'px';
+  clone.style.height = height + 'px';
+  clone.style.transform = '';
 
-    this.shown = false;
-    this.lock = false;
-    this.released = true;
-    this.lastScrollPosition = null;
-    this.pressTimer = null;
+  return clone;
+};
 
-    this.options = _extends({}, DEFAULT_OPTIONS, options);
-    this.overlay.init(this);
-    this.handler.init(this);
+var createCustomEvent = function createCustomEvent(type, params) {
+  var eventParams = _extends({
+    bubbles: false,
+    cancelable: false,
+    detail: undefined
+  }, params);
+
+  if (typeof window.CustomEvent === 'function') {
+    return new CustomEvent(type, eventParams);
   }
 
+  var customEvent = document.createEvent('CustomEvent');
+  customEvent.initCustomEvent(type, eventParams.bubbles, eventParams.cancelable, eventParams.detail);
+
+  return customEvent;
+};
+
+var mediumZoom = function mediumZoom(selector) {
+  var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
   /**
-   * Make element(s) zoomable.
-   * @param  {string|Element} el A css selector or an Element.
-   * @return {this}
+   * Ensure the compatibility with IE11 if no Promise polyfill are used.
    */
+  var Promise = window.Promise || function Promise(fn) {
+    function noop() {}
+    fn(noop, noop);
+  };
+
+  var _handleClick = function _handleClick(event) {
+    var target = event.target;
 
 
-  createClass(Zooming, [{
-    key: 'listen',
-    value: function listen$$1(el) {
-      if (typeof el === 'string') {
-        var els = document.querySelectorAll(el);
-        var i = els.length;
+    if (target === overlay) {
+      close();
+      return;
+    }
 
-        while (i--) {
-          this.listen(els[i]);
-        }
-      } else if (el.tagName === 'IMG') {
-        el.style.cursor = cursor.zoomIn;
-        listen(el, 'click', this.handler.click);
+    if (images.indexOf(target) === -1) {
+      return;
+    }
 
-        if (this.options.preloadImage) {
-          loadImage(getOriginalSource(el));
+    toggle({ target: target });
+  };
+
+  var _handleScroll = function _handleScroll() {
+    if (isAnimating || !active.original) {
+      return;
+    }
+
+    var currentScroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+    if (Math.abs(scrollTop - currentScroll) > zoomOptions.scrollOffset) {
+      setTimeout(close, 150);
+    }
+  };
+
+  var _handleKeyUp = function _handleKeyUp(event) {
+    var key = event.key || event.keyCode;
+
+    // Close if escape key is pressed
+    if (key === 'Escape' || key === 'Esc' || key === 27) {
+      close();
+    }
+  };
+
+  var update = function update() {
+    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    var newOptions = options;
+
+    if (options.background) {
+      overlay.style.background = options.background;
+    }
+
+    if (options.container && options.container instanceof Object) {
+      newOptions.container = _extends({}, zoomOptions.container, options.container);
+    }
+
+    if (options.template) {
+      var template = isNode(options.template) ? options.template : document.querySelector(options.template);
+
+      newOptions.template = template;
+    }
+
+    zoomOptions = _extends({}, zoomOptions, newOptions);
+
+    images.forEach(function (image) {
+      image.dispatchEvent(createCustomEvent('medium-zoom:update', {
+        detail: { zoom: zoom }
+      }));
+    });
+
+    return zoom;
+  };
+
+  var clone = function clone() {
+    var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    return mediumZoom(_extends({}, zoomOptions, options));
+  };
+
+  var attach = function attach() {
+    for (var _len = arguments.length, selectors = Array(_len), _key = 0; _key < _len; _key++) {
+      selectors[_key] = arguments[_key];
+    }
+
+    var newImages = selectors.reduce(function (imagesAccumulator, currentSelector) {
+      return [].concat(imagesAccumulator, getImagesFromSelector(currentSelector));
+    }, []);
+
+    newImages.filter(function (newImage) {
+      return images.indexOf(newImage) === -1;
+    }).forEach(function (newImage) {
+      images.push(newImage);
+      newImage.classList.add('medium-zoom-image');
+    });
+
+    eventListeners.forEach(function (_ref) {
+      var type = _ref.type,
+          listener = _ref.listener,
+          options = _ref.options;
+
+      newImages.forEach(function (image) {
+        image.addEventListener(type, listener, options);
+      });
+    });
+
+    return zoom;
+  };
+
+  var detach = function detach() {
+    for (var _len2 = arguments.length, selectors = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+      selectors[_key2] = arguments[_key2];
+    }
+
+    if (active.zoomed) {
+      close();
+    }
+
+    var imagesToDetach = selectors.length > 0 ? selectors.reduce(function (imagesAccumulator, currentSelector) {
+      return [].concat(imagesAccumulator, getImagesFromSelector(currentSelector));
+    }, []) : images;
+
+    imagesToDetach.forEach(function (image) {
+      image.classList.remove('medium-zoom-image');
+      image.dispatchEvent(createCustomEvent('medium-zoom:detach', {
+        detail: { zoom: zoom }
+      }));
+    });
+
+    images = images.filter(function (image) {
+      return imagesToDetach.indexOf(image) === -1;
+    });
+
+    return zoom;
+  };
+
+  var on = function on(type, listener) {
+    var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+    images.forEach(function (image) {
+      image.addEventListener('medium-zoom:' + type, listener, options);
+    });
+
+    eventListeners.push({ type: 'medium-zoom:' + type, listener: listener, options: options });
+
+    return zoom;
+  };
+
+  var off = function off(type, listener) {
+    var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+    images.forEach(function (image) {
+      image.removeEventListener('medium-zoom:' + type, listener, options);
+    });
+
+    eventListeners = eventListeners.filter(function (eventListener) {
+      return !(eventListener.type === 'medium-zoom:' + type && eventListener.listener.toString() === listener.toString());
+    });
+
+    return zoom;
+  };
+
+  var open = function open() {
+    var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+        target = _ref2.target;
+
+    var _animate = function _animate() {
+      var container = {
+        width: document.documentElement.clientWidth,
+        height: document.documentElement.clientHeight,
+        left: 0,
+        top: 0,
+        right: 0,
+        bottom: 0
+      };
+      var viewportWidth = void 0;
+      var viewportHeight = void 0;
+
+      if (zoomOptions.container) {
+        if (zoomOptions.container instanceof Object) {
+          // The container is given as an object with properties like width, height, left, top
+          container = _extends({}, container, zoomOptions.container);
+
+          // We need to adjust custom options like container.right or container.bottom
+          viewportWidth = container.width - container.left - container.right - zoomOptions.margin * 2;
+          viewportHeight = container.height - container.top - container.bottom - zoomOptions.margin * 2;
+        } else {
+          // The container is given as an element
+          var zoomContainer = isNode(zoomOptions.container) ? zoomOptions.container : document.querySelector(zoomOptions.container);
+
+          var _zoomContainer$getBou = zoomContainer.getBoundingClientRect(),
+              _width = _zoomContainer$getBou.width,
+              _height = _zoomContainer$getBou.height,
+              _left = _zoomContainer$getBou.left,
+              _top = _zoomContainer$getBou.top;
+
+          container = _extends({}, container, {
+            width: _width,
+            height: _height,
+            left: _left,
+            top: _top
+          });
         }
       }
 
-      return this;
-    }
+      viewportWidth = viewportWidth || container.width - zoomOptions.margin * 2;
+      viewportHeight = viewportHeight || container.height - zoomOptions.margin * 2;
 
-    /**
-     * Update options or return current options if no argument is provided.
-     * @param  {Object} options An Object that contains this.options.
-     * @return {this|this.options}
-     */
+      var zoomTarget = active.zoomedHd || active.original;
+      var naturalWidth = isSvg(zoomTarget) ? viewportWidth : zoomTarget.naturalWidth || viewportWidth;
+      var naturalHeight = isSvg(zoomTarget) ? viewportHeight : zoomTarget.naturalHeight || viewportHeight;
 
-  }, {
-    key: 'config',
-    value: function config(options) {
-      if (options) {
-        _extends(this.options, options);
-        this.overlay.updateStyle(this.options);
-        return this;
+      var _zoomTarget$getBoundi = zoomTarget.getBoundingClientRect(),
+          top = _zoomTarget$getBoundi.top,
+          left = _zoomTarget$getBoundi.left,
+          width = _zoomTarget$getBoundi.width,
+          height = _zoomTarget$getBoundi.height;
+
+      var scaleX = Math.min(naturalWidth, viewportWidth) / width;
+      var scaleY = Math.min(naturalHeight, viewportHeight) / height;
+      var scale = Math.min(scaleX, scaleY);
+      var translateX = (-left + (viewportWidth - width) / 2 + zoomOptions.margin + container.left) / scale;
+      var translateY = (-top + (viewportHeight - height) / 2 + zoomOptions.margin + container.top) / scale;
+      var transform = 'scale(' + scale + ') translate3d(' + translateX + 'px, ' + translateY + 'px, 0)';
+
+      active.zoomed.style.transform = transform;
+
+      if (active.zoomedHd) {
+        active.zoomedHd.style.transform = transform;
+      }
+    };
+
+    return new Promise(function (resolve) {
+      if (target && images.indexOf(target) === -1) {
+        resolve(zoom);
+        return;
+      }
+
+      var _handleOpenEnd = function _handleOpenEnd() {
+        isAnimating = false;
+        active.zoomed.removeEventListener('transitionend', _handleOpenEnd);
+        active.original.dispatchEvent(createCustomEvent('medium-zoom:opened', {
+          detail: { zoom: zoom }
+        }));
+
+        resolve(zoom);
+      };
+
+      if (active.zoomed) {
+        resolve(zoom);
+        return;
+      }
+
+      if (target) {
+        // The zoom was triggered manually via a click
+        active.original = target;
+      } else if (images.length > 0) {
+var _images = images;
+        active.original = _images[0];
       } else {
-        return this.options;
+        resolve(zoom);
+        return;
       }
-    }
 
-    /**
-     * Open (zoom in) the Element.
-     * @param  {Element} el The Element to open.
-     * @param  {Function} [cb=this.options.onOpen] A callback function that will
-     * be called when a target is opened and transition has ended. It will get
-     * the target element as the argument.
-     * @return {this}
-     */
+      active.original.dispatchEvent(createCustomEvent('medium-zoom:open', {
+        detail: { zoom: zoom }
+      }));
 
-  }, {
-    key: 'open',
-    value: function open(el) {
-      var _this = this;
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      isAnimating = true;
+      active.zoomed = cloneTarget(active.original);
 
-      var cb = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.options.onOpen;
+      document.body.appendChild(overlay);
 
-      if (this.shown || this.lock) return;
+      if (zoomOptions.template) {
+        var template = isNode(zoomOptions.template) ? zoomOptions.template : document.querySelector(zoomOptions.template);
+        active.template = document.createElement('div');
+        active.template.appendChild(template.content.cloneNode(true));
 
-      var target$$1 = typeof el === 'string' ? document.querySelector(el) : el;
+        document.body.appendChild(active.template);
+      }
 
-      if (target$$1.tagName !== 'IMG') return;
+      document.body.appendChild(active.zoomed);
 
-      this.options.onBeforeOpen(target$$1);
+      window.requestAnimationFrame(function () {
+        document.body.classList.add('medium-zoom--opened');
+      });
 
-      this.target.init(target$$1, this);
+      active.original.classList.add('medium-zoom-image--hidden');
+      active.zoomed.classList.add('medium-zoom-image--opened');
 
-      if (!this.options.preloadImage) {
-        var srcOriginal = this.target.srcOriginal;
+      active.zoomed.addEventListener('click', close);
+      active.zoomed.addEventListener('transitionend', _handleOpenEnd);
 
+      if (active.original.getAttribute('data-zoom-src')) {
+        active.zoomedHd = active.zoomed.cloneNode();
 
-        if (srcOriginal != null) {
-          this.options.onImageLoading(target$$1);
-          loadImage(srcOriginal, this.options.onImageLoaded);
+        // Reset the `scrset` property or the HD image won't load.
+        active.zoomedHd.removeAttribute('srcset');
+        active.zoomedHd.removeAttribute('sizes');
+
+        active.zoomedHd.src = active.zoomed.getAttribute('data-zoom-src');
+
+        active.zoomedHd.onerror = function () {
+          clearInterval(getZoomTargetSize);
+          console.warn('Unable to reach the zoom image target ' + active.zoomedHd.src);
+          active.zoomedHd = null;
+          _animate();
+        };
+
+        // We need to access the natural size of the full HD
+        // target as fast as possible to compute the animation.
+        var getZoomTargetSize = setInterval(function () {
+          if ( active.zoomedHd.complete) {
+            clearInterval(getZoomTargetSize);
+            active.zoomedHd.classList.add('medium-zoom-image--opened');
+            active.zoomedHd.addEventListener('click', close);
+            document.body.appendChild(active.zoomedHd);
+            _animate();
+          }
+        }, 10);
+      } else if (active.original.hasAttribute('srcset')) {
+        // If an image has a `srcset` attribuet, we don't know the dimensions of the
+        // zoomed (HD) image (like when `data-zoom-src` is specified).
+        // Therefore the approach is quite similar.
+        active.zoomedHd = active.zoomed.cloneNode();
+
+        // Resetting the sizes attribute tells the browser to load the
+        // image best fitting the current viewport size, respecting the `srcset`.
+        active.zoomedHd.removeAttribute('sizes');
+
+        // In Firefox, the `loading` attribute needs to be set to `eager` (default
+        // value) for the load event to be fired.
+        active.zoomedHd.removeAttribute('loading');
+
+        // Wait for the load event of the hd image. This will fire if the image
+        // is already cached.
+        var loadEventListener = active.zoomedHd.addEventListener('load', function () {
+          active.zoomedHd.removeEventListener('load', loadEventListener);
+          active.zoomedHd.classList.add('medium-zoom-image--opened');
+          active.zoomedHd.addEventListener('click', close);
+          document.body.appendChild(active.zoomedHd);
+          _animate();
+        });
+      } else {
+        _animate();
+      }
+    });
+  };
+
+  var close = function close() {
+    return new Promise(function (resolve) {
+      if (isAnimating || !active.original) {
+        resolve(zoom);
+        return;
+      }
+
+      var _handleCloseEnd = function _handleCloseEnd() {
+        active.original.classList.remove('medium-zoom-image--hidden');
+        document.body.removeChild(active.zoomed);
+        if (active.zoomedHd) {
+          document.body.removeChild(active.zoomedHd);
         }
-      }
-
-      this.shown = true;
-      this.lock = true;
-
-      this.target.zoomIn();
-      this.overlay.insert();
-      this.overlay.fadeIn();
-
-      listen(document, 'scroll', this.handler.scroll);
-      listen(document, 'keydown', this.handler.keydown);
-
-      if (this.options.closeOnWindowResize) {
-        listen(window, 'resize', this.handler.resizeWindow);
-      }
-
-      var onOpenEnd = function onOpenEnd() {
-        listen(target$$1, transEndEvent, onOpenEnd, false);
-        _this.lock = false;
-        _this.target.upgradeSource();
-
-        if (_this.options.enableGrab) {
-          toggleGrabListeners(document, _this.handler, true);
-        }
-
-        cb(target$$1);
-      };
-
-      listen(target$$1, transEndEvent, onOpenEnd);
-
-      return this;
-    }
-
-    /**
-     * Close (zoom out) the Element currently opened.
-     * @param  {Function} [cb=this.options.onClose] A callback function that will
-     * be called when a target is closed and transition has ended. It will get
-     * the target element as the argument.
-     * @return {this}
-     */
-
-  }, {
-    key: 'close',
-    value: function close() {
-      var _this2 = this;
-
-      var cb = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.options.onClose;
-
-      if (!this.shown || this.lock) return;
-
-      var target$$1 = this.target.el;
-
-      this.options.onBeforeClose(target$$1);
-
-      this.lock = true;
-      this.body.style.cursor = cursor.default;
-      this.overlay.fadeOut();
-      this.target.zoomOut();
-
-      listen(document, 'scroll', this.handler.scroll, false);
-      listen(document, 'keydown', this.handler.keydown, false);
-
-      if (this.options.closeOnWindowResize) {
-        listen(window, 'resize', this.handler.resizeWindow, false);
-      }
-
-      var onCloseEnd = function onCloseEnd() {
-        listen(target$$1, transEndEvent, onCloseEnd, false);
-
-        _this2.shown = false;
-        _this2.lock = false;
-
-        _this2.target.downgradeSource();
-
-        if (_this2.options.enableGrab) {
-          toggleGrabListeners(document, _this2.handler, false);
+        document.body.removeChild(overlay);
+        active.zoomed.classList.remove('medium-zoom-image--opened');
+        if (active.template) {
+          document.body.removeChild(active.template);
         }
 
-        _this2.target.restoreCloseStyle();
-        _this2.overlay.remove();
+        isAnimating = false;
+        active.zoomed.removeEventListener('transitionend', _handleCloseEnd);
 
-        cb(target$$1);
+        active.original.dispatchEvent(createCustomEvent('medium-zoom:closed', {
+          detail: { zoom: zoom }
+        }));
+
+        active.original = null;
+        active.zoomed = null;
+        active.zoomedHd = null;
+        active.template = null;
+
+        resolve(zoom);
       };
 
-      listen(target$$1, transEndEvent, onCloseEnd);
+      isAnimating = true;
+      document.body.classList.remove('medium-zoom--opened');
+      active.zoomed.style.transform = '';
 
-      return this;
+      if (active.zoomedHd) {
+        active.zoomedHd.style.transform = '';
+      }
+
+      // Fade out the template so it's not too abrupt
+      if (active.template) {
+        active.template.style.transition = 'opacity 150ms';
+        active.template.style.opacity = 0;
+      }
+
+      active.original.dispatchEvent(createCustomEvent('medium-zoom:close', {
+        detail: { zoom: zoom }
+      }));
+
+      active.zoomed.addEventListener('transitionend', _handleCloseEnd);
+    });
+  };
+
+  var toggle = function toggle() {
+    var _ref3 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+        target = _ref3.target;
+
+    if (active.original) {
+      return close();
     }
 
-    /**
-     * Grab the Element currently opened given a position and apply extra zoom-in.
-     * @param  {number}   x The X-axis of where the press happened.
-     * @param  {number}   y The Y-axis of where the press happened.
-     * @param  {number}   scaleExtra Extra zoom-in to apply.
-     * @param  {Function} [cb=this.options.onGrab] A callback function that
-     * will be called when a target is grabbed and transition has ended. It
-     * will get the target element as the argument.
-     * @return {this}
-     */
+    return open({ target: target });
+  };
 
-  }, {
-    key: 'grab',
-    value: function grab(x, y) {
-      var scaleExtra = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : this.options.scaleExtra;
-      var cb = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : this.options.onGrab;
+  var getOptions = function getOptions() {
+    return zoomOptions;
+  };
 
-      if (!this.shown || this.lock) return;
+  var getImages = function getImages() {
+    return images;
+  };
 
-      var target$$1 = this.target.el;
+  var getZoomedImage = function getZoomedImage() {
+    return active.original;
+  };
 
-      this.options.onBeforeGrab(target$$1);
+  var images = [];
+  var eventListeners = [];
+  var isAnimating = false;
+  var scrollTop = 0;
+  var zoomOptions = options;
+  var active = {
+    original: null,
+    zoomed: null,
+    zoomedHd: null,
+    template: null
 
-      this.released = false;
-      this.target.grab(x, y, scaleExtra);
-
-      var onGrabEnd = function onGrabEnd() {
-        listen(target$$1, transEndEvent, onGrabEnd, false);
-        cb(target$$1);
-      };
-
-      listen(target$$1, transEndEvent, onGrabEnd);
-
-      return this;
+    // If the selector is omitted, it's replaced by the options
+  };if (Object.prototype.toString.call(selector) === '[object Object]') {
+    zoomOptions = selector;
+  } else if (selector || typeof selector === 'string' // to process empty string as a selector
+  ) {
+      attach(selector);
     }
 
-    /**
-     * Move the Element currently grabbed given a position and apply extra zoom-in.
-     * @param  {number}   x The X-axis of where the press happened.
-     * @param  {number}   y The Y-axis of where the press happened.
-     * @param  {number}   scaleExtra Extra zoom-in to apply.
-     * @param  {Function} [cb=this.options.onMove] A callback function that
-     * will be called when a target is moved and transition has ended. It will
-     * get the target element as the argument.
-     * @return {this}
-     */
+  // Apply the default option values
+  zoomOptions = _extends({
+    margin: 0,
+    background: '#fff',
+    scrollOffset: 40,
+    container: null,
+    template: null
+  }, zoomOptions);
 
-  }, {
-    key: 'move',
-    value: function move(x, y) {
-      var scaleExtra = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : this.options.scaleExtra;
-      var cb = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : this.options.onMove;
+  var overlay = createOverlay(zoomOptions.background);
 
-      if (!this.shown || this.lock) return;
+  document.addEventListener('click', _handleClick);
+  document.addEventListener('keyup', _handleKeyUp);
+  document.addEventListener('scroll', _handleScroll);
+  window.addEventListener('resize', close);
 
-      this.released = false;
-      this.body.style.cursor = cursor.move;
-      this.target.move(x, y, scaleExtra);
+  var zoom = {
+    open: open,
+    close: close,
+    toggle: toggle,
+    update: update,
+    clone: clone,
+    attach: attach,
+    detach: detach,
+    on: on,
+    off: off,
+    getOptions: getOptions,
+    getImages: getImages,
+    getZoomedImage: getZoomedImage
+  };
 
-      var target$$1 = this.target.el;
+  return zoom;
+};
 
-      var onMoveEnd = function onMoveEnd() {
-        listen(target$$1, transEndEvent, onMoveEnd, false);
-        cb(target$$1);
-      };
+function styleInject(css, ref) {
+  if ( ref === void 0 ) ref = {};
+  var insertAt = ref.insertAt;
 
-      listen(target$$1, transEndEvent, onMoveEnd);
+  if (!css || typeof document === 'undefined') { return; }
 
-      return this;
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
+  style.type = 'text/css';
+
+  if (insertAt === 'top') {
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild);
+    } else {
+      head.appendChild(style);
     }
+  } else {
+    head.appendChild(style);
+  }
 
-    /**
-     * Release the Element currently grabbed.
-     * @param  {Function} [cb=this.options.onRelease] A callback function that
-     * will be called when a target is released and transition has ended. It
-     * will get the target element as the argument.
-     * @return {this}
-     */
-
-  }, {
-    key: 'release',
-    value: function release() {
-      var _this3 = this;
-
-      var cb = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.options.onRelease;
-
-      if (!this.shown || this.lock) return;
-
-      var target$$1 = this.target.el;
-
-      this.options.onBeforeRelease(target$$1);
-
-      this.lock = true;
-      this.body.style.cursor = cursor.default;
-      this.target.restoreOpenStyle();
-
-      var onReleaseEnd = function onReleaseEnd() {
-        listen(target$$1, transEndEvent, onReleaseEnd, false);
-        _this3.lock = false;
-        _this3.released = true;
-        cb(target$$1);
-      };
-
-      listen(target$$1, transEndEvent, onReleaseEnd);
-
-      return this;
-    }
-  }]);
-  return Zooming;
-}();
-
-
-function toggleGrabListeners(el, handler$$1, add) {
-  var types = ['mousedown', 'mousemove', 'mouseup', 'touchstart', 'touchmove', 'touchend'];
-
-  types.forEach(function toggleListener(type) {
-    listen(el, type, handler$$1[type], add);
-  });
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
 }
 
-/* harmony default export */ var zooming_module = (Zooming);
+var css = ".medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)!important}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}";
+styleInject(css);
+
+/* harmony default export */ var medium_zoom_esm = (mediumZoom);
 
 // CONCATENATED MODULE: ./src/scripts/main.js
 
@@ -1150,30 +805,49 @@ function toggleGrabListeners(el, handler$$1, add) {
 
 
 
+
+
 //https://kingdido999.github.io/zooming/docs/#/
+// import Zooming from 'zooming';
 
-
-document.addEventListener('DOMContentLoaded', function () {
-	const zooming = new zooming_module({
-	  bgColor: 'rgb(5, 5, 5)',
-	  bgOpacity: 0.8,
-	})
+// document.addEventListener('DOMContentLoaded', function () {
+// 	const zooming = new Zooming({
+// 	  bgColor: 'rgb(5, 5, 5)',
+// 	  bgOpacity: 0.8,
+// 	})
   
-	zooming.listen('.img-zoomable')
-  })
-
-// import { zoom } from "@nishanths/zoom.js";
-
-// const zoomImages = document.querySelectorAll('[data-action="zoom"]');
-// zoomImages.forEach(img => {
-// 	zoom.setup(img);
-// });
+// 	zooming.listen('.img-zoomable')
+//   })
 
 
+medium_zoom_esm('.img-zoomable', {
+	margin: 24,
+	background: 'rgba(5, 5, 5, 0.8)',
+  });
 
-console.log("Works!");
 
+/*
+* Detect Avif image support and change images extension
+*/
+async function supportsAvif() {
+	if (!self.createImageBitmap) return false;
+		const avifData = 'data:image/avif;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
+		const blob = await fetch(avifData).then(r => r.blob());
+		return createImageBitmap(blob).then(() => true, () => false);
+}
 
+(async () => {
+	if(await !supportsAvif()) {
+		console.log('support avif');
+		const images = document.querySelectorAll('.img-zoomable');
+		images.forEach(img => {
+			let dataZoomSrc = img.getAttribute('srcset').replace('.avif', '.jpg');
+			let dataZoomSrcHd = img.getAttribute('data-zoom-src').replace('.avif', '.jpg');
+			img.setAttribute('srcset', dataZoomSrc);
+			img.setAttribute('data-zoom-src', dataZoomSrcHd);
+		});
+	}
+})();
 
 /***/ })
 /******/ ]);
